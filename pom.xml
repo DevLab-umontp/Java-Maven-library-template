@@ -2,8 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <!-- FIXME replace pseudo-->
-    <groupId>io.github.pseudo</groupId>
+    <groupId>io.github.devlab-umontp</groupId>
     <!-- FIXME replace name -->
     <artifactId>template</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -35,8 +34,7 @@
         <maven.install>3.0.0-M1</maven.install>
 
         <!-- SonarCloud properties -->
-        <!-- FIXME replace with your SonarCloud organization on https://sonarcloud.io -->
-        <sonar.organization>mathieusoysal</sonar.organization>
+        <sonar.organization>devlab-umontp</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
@@ -82,9 +80,7 @@
             <email>Mathieu.Soysal@outlook.fr</email>
             <!-- FIXME replace with your site (optional) -->
             <url>https://MathieuSoysal.me/</url>
-            <!-- FIXME replace with your organization (optional) -->
             <organization>com.github.devlab-umontp</organization>
-            <!-- FIXME replace with your organization URL (optional) -->
             <organizationUrl>https://github.com/DevLab-umontp</organizationUrl>
         </developer>
     </developers>
@@ -246,7 +242,7 @@
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <!-- FIXME replace io.github.pseudo.App-->
-                                    <mainClass>io.github.pseudo.App</mainClass>
+                                    <mainClass>io.github.devlab-umontp.App</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
