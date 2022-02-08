@@ -8,32 +8,31 @@
 
 # <img src="https://cdn.iconscout.com/icon/free/png-512/java-43-569305.png" width="100"> Java Maven Library Template [![GitHub](https://img.shields.io/badge/license-Apache%202.0%20License-green)](LICENSE)
 
-Template to easily create a Java Maven library and publish it automatically on GitHub Package and Maven Central, the publication is automated via the repo versions.
+Template permettant de créer facilement une bibliothèque Java et la publier automatiquement sur GitHub Package et Maven Central.
 
-## Use template
+## Utiliser le template
 
-To use this template, you just need to click on "Use this template" at the top of the main page of this repository, or you can copy/paste this repository.
+Pour utiliser ce modèle, il vous suffit de cliquer sur "Utiliser ce modèle" en haut de la page principale de ce référentiel, ou vous pouvez copier/coller ce référentiel.
 
-## Template configurations :
+## Configuration du template :
 
 - [ ] **Fix pom.xml**
-  - *To guide you, a FIXME tag has been added to all lines to be edited.*
+  - *Pour vous guider, une balise **FIXME** a été ajoutée à toutes les lignes à éditer.*
 - [ ] **Config SonarCloud**
-  - To configure SonarCloud for your project you must go to https://sonarcloud.io
-  - Replace the file at [/.github/workflows/sonar.yml](.github/workflows/sonar.yml) with your own yaml file at https://sonarcloud.io and if your Java project is not on Java 17 edit that yaml file.
-- [ ] **Activate the JavaDoc GitHub page**
-  - To enable the JavaDoc GitHub Page, you need to enable the GitHub page in your repository settings for the *javadoc* branch.
+  - Pour configurer SonarCloud sur le projet, rendez-vous sur https://sonarcloud.io
+- [ ] **Activer le JavaDoc GitHub page**
+  - Pour activer JavaDoc GitHub Page, vous avez besoin d'activer GitHub Page dans les settings du répertoire GitHub pour la branche *javadoc*.
 
 ## Badges
 
-Don't forget to add your own SonarCloud badges to your readme 😉
- - to get your maven-central badge : https://shields.io/category/platform-support
- - to get your JavaDoc Badge : 
+N'oubliez pas d'ajouter vos propres badges SonarCloud dans votre readme 😉
+ - pour obtenir votre badge maven-central : https://shields.io/category/platform-support
+ - pour obtenir votre Badge JavaDoc : 
 ```Markdown
   [![Javadoc](https://img.shields.io/badge/JavaDoc-Online-green)](https://<github-username>.github.io/<github-repo>/javadoc/)
 ```
-On the link of JavaDoc badge, replace  `<github-username>` by your GitHub username, `<github-repo>` by the name of your GitHub repository.
+Dans le lien du du badge JavaDoc, remplacez `<github-username>` par votre username GitHub, `<github-repo>` par votre le nom de votre répertoire GitHub.
 
 ## Contact
 
-If you have any problems setting up CI, CD or other, do not hesitate to contact me at Mathieu.Soysal@etu.umontpellier.fr
+Si vous renconctré un problème avec le paramétrage du CI, CD ou autre. N'hésitez pas à me contacter sur Mathieu.Soysal@etu.umontpellier.f
