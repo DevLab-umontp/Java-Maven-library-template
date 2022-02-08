@@ -35,4 +35,4 @@ Dans le lien du du badge JavaDoc, remplacez `<github-username>` par votre userna
 
 ## Contact
 
-Si vous renconctré un problème avec le paramétrage du CI, CD ou autre. N'hésitez pas à me contacter sur Mathieu.Soysal@etu.umontpellier.f
+Si vous renconctré un problème avec le paramétrage du CI, CD ou autre. N'hésitez pas à me contacter sur Mathieu.Soysal@etu.umontpellier.fr
