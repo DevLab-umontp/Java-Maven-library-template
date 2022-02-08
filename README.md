@@ -14,24 +14,13 @@ Template to easily create a Java Maven library and publish it automatically on G
 
 To use this template, you just need to click on "Use this template" at the top of the main page of this repository, or you can copy/paste this repository.
 
-## Requirements
-- [ ] [Create an account on Sonatype](https://issues.sonatype.org/secure/Signup!default.jspa)
-- [ ] [Create a JIRA ticket on Sonatype to approve your groupId (io.github.YOUR-GITHUB-USERNAME)](https://issues.sonatype.org/secure/CreateIssue.jspa?issuetype=21&pid=10134)
-- [ ] [Generate a gpg key and distribute the public key to a keyserver](https://central.sonatype.org/publish/requirements/gpg/)
-
 ## Template configurations :
 
 - [ ] **Fix pom.xml**
   - *To guide you, a FIXME tag has been added to all lines to be edited.*
 - [ ] **Config SonarCloud**
   - To configure SonarCloud for your project you must go to https://sonarcloud.io
-  - Replace the file at [/.github/workflows/sonar.yml](.github/workflows/sonar.yml) with your own yaml file at https://sonarcloud.io and if your Java project is not on Java 11 edit that yaml file.
-- [ ] **Create your GitHub secrets on your repository**
-  - *NEXUS_USERNAME* with your username used on Sonatype
-  - *NEXUS_PASSWORD* with your password used on Sonatype
-  - *GPG_PRIVATE_KEY* with the private key of your generated pgp key
-    - to get the private key `gpg --armor --export-secret-key <key-id> > privkey.asc` 
-  - *GPG_PASSPHRASE* with the passphrase of your gpg key
+  - Replace the file at [/.github/workflows/sonar.yml](.github/workflows/sonar.yml) with your own yaml file at https://sonarcloud.io and if your Java project is not on Java 17 edit that yaml file.
 - [ ] **Activate the JavaDoc GitHub page**
   - To enable the JavaDoc GitHub Page, you need to enable the GitHub page in your repository settings for the *javadoc* branch.
 
